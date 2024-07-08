@@ -54,7 +54,7 @@ const firebaseConfig = {
 
  ```
 
- - Obtain the SAML provider Id (should be similar to `saml.dev`) from Firebase console and update the value in [signInWithPopup.js](OffscreenAuthWebsite\public\signInWithPopup.js) script:
+ - Obtain the SAML provider Id (should be similar to `saml.dev`) from Firebase console (Authentication->Sign-in Method) and update the value in [signInWithPopup.js](OffscreenAuthWebsite\public\signInWithPopup.js) script:
 
 ```
 const PROVIDER = new SAMLAuthProvider("saml.dev");
