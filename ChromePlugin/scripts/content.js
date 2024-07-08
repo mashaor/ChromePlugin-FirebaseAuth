@@ -9,7 +9,7 @@ function getToken() {
     console.log("Token has been loaded from local storage: ", token);
 
     //Check if the access token is present or has expired
-    const currentTime = Date.now() ;/// 1000; // Convert to seconds for comparison
+    const currentTime = Date.now();
     if (!token || currentTime >= expirationTime) {
       console.log("Token has expired");
     } 
