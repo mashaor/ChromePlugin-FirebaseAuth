@@ -123,3 +123,6 @@ Refer to the sample method in [content.js](ChromePlugin\scripts\content.js) for 
 [Firebase Auth in Chrome Extention](https://firebase.google.com/docs/auth/web/chrome-extension#use-web-extension)
 
 [Firebase SAML](https://firebase.google.com/docs/auth/web/saml#web_4)
+
+[Firebase Hosting](https://firebase.google.com/docs/app-hosting?hl=en&authuser=1)
+
