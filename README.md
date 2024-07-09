@@ -1,6 +1,6 @@
 
 
-# Chrome Extension V3 With Firebase Authentication
+# Chrome Extension V3 With SAML Firebase Authentication
 
 ## Content
 - [Overview](#overview)
