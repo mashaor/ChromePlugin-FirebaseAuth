@@ -8,8 +8,7 @@
     "storage",
     "tabs",
     "identity",
-    "offscreen",
-    "notifications"
+    "offscreen"
   ],
   "action": {
     "default_popup": "popup.html",
