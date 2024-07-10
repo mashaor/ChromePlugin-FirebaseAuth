@@ -78,16 +78,12 @@ Once the deployment is complete, obtain the URL of the newly deployed app and re
 
 ### Configuration Changes in Firebase 
 
-This extension is using SAML as authentication method and it considered to be "federated sign in", therefore we must add the Chrome extension ID and the authentication website url, to the list of authorized domains in Firebase console. 
+This extension is using SAML as authentication method and it considered to be "federated sign in", therefore we must add the authentication website url to the list of authorized domains in Firebase console. 
 
 - Open the project in the [Firebase Console](https://console.firebase.google.com).
 - In the Authentication section, open the Settings page.
-- Add a URIs of the extension and the website like the following to the list of Authorized Domains:
+- Add the URL of the website to the list
 
- ```
-chrome-extension://CHROME_EXTENSION_ID
-https://NAME_OF_YOUR_WEBSITE.web.app
- ```
 ## Plugin Setup for Testing
 
 #### Prerequisites
