@@ -4,10 +4,7 @@
   "version": "1.0",
   "description": "",
   "permissions": [
-    "scripting",
     "storage",
-    "tabs",
-    "identity",
     "offscreen"
   ],
   "action": {
